@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 echo "欢迎使用一键搭建"
 echo "即将搭建的是4.23版本"
 echo "准备开始安装"
@@ -28,8 +28,8 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/794959818/PUBG-Radar-Onekey.git
-cd PUBG-Radar-Onekey/
+git clone https://github.com/zwh1027656862/PUBGonedream.git
+cd PUBGonedream/
 npm i
 npm i -g pino
 npm install -g forever
